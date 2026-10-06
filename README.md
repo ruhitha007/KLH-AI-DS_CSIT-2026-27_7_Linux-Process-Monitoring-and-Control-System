@@ -1,5 +1,4 @@
-# Linux Process Management System
-
+# Linux Process Monitoring and Control System
 A Linux-based process monitoring and control system that provides a graphical interface for viewing running processes, monitoring CPU and memory usage, inspecting process details, and performing basic process-control operations such as pause, resume, and termination.
 
 ---
@@ -150,7 +149,7 @@ The project is intended to run on Linux.
 - Tkinter
 - Graphical desktop environment
 
-### Ubuntu / Debian
+### Ubuntu 
 
 Install Python and Tkinter if required:
 
