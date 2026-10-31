@@ -1,0 +1,74 @@
+LINUX PROCESS MONITORING AND CONTROL SYSTEM
+==========================================
+
+Operating System : Ubuntu Linux
+Interface       : Terminal
+Language        : Python / Linux System Calls
+
+1. APPLICATION STARTUP
+----------------------
+$ python3 main.py
+
+==========================================
+     LINUX PROCESS MONITORING SYSTEM
+==========================================
+
+1. Display Running Processes
+2. View Process Details
+3. Stop a Process
+4. Resume a Process
+5. Terminate a Process
+6. Exit
+
+Enter your choice: 1
+
+2. RUNNING PROCESS LIST
+-----------------------
+PID       PROCESS NAME       STATE
+------------------------------------
+1         systemd            Sleeping
+742       bash               Sleeping
+1050      python3            Running
+1124      gnome-terminal     Sleeping
+1280      firefox            Running
+
+3. PROCESS DETAILS
+------------------
+Enter Process ID: 1050
+
+Process ID       : 1050
+Process Name     : python3
+Parent Process   : 742
+Process State    : Running
+Memory Usage     : 24.5 MB
+
+4. STOP PROCESS
+---------------
+Enter Process ID: 1050
+
+Sending SIGSTOP signal...
+Process 1050 stopped successfully.
+
+5. RESUME PROCESS
+-----------------
+Enter Process ID: 1050
+
+Sending SIGCONT signal...
+Process 1050 resumed successfully.
+
+6. TERMINATE PROCESS
+--------------------
+Enter Process ID: 1050
+
+Sending SIGTERM signal...
+Termination signal sent successfully.
+
+7. EXIT APPLICATION
+-------------------
+Enter your choice: 6
+
+Exiting Linux Process Monitoring System...
+
+==========================================
+              END OF OUTPUT
+==========================================
